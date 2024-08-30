@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+body{
+    background-color: var(--body-bg);
+    font-family: Manrope, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 450px;
+    height: 310px;
+    background-color: var(--card-bg);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card .advice{
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    font-size: 16px;
+    letter-spacing: 5px;
+    color: var(--cor-botao-card);
+}
+.card .card-p{
+    width: 360px;
+    height: 136px;
+    padding: 20px;
+    font-size: 23px;
+    text-align: center;
+    color: white;
+}
+
+.card .dice-border{
+    display: flex;
+    padding: 18px;
+    background-color: var(--cor-botao-card);
+    border-radius: 50%;
+    transform: translateY(85%);  
+}
+.card .dice-border:hover{
+   color: var(--cor-botao-card);
+   transition: 0.3s;
+   cursor: pointer;
+   box-shadow: 0 0 15px var(--cor-botao-card);
+}
+
+@media (max-width: 480px) {  
+    .card{
+        width: 380px;
+        height: 310px;
+        background-color: var(--card-bg);
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+    .card .pause-img{
+        width: 111%;
+    }
+}
