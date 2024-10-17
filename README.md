@@ -1,6 +1,6 @@
-<h1 style="text-align: center;">Projeto Advice Generetor app</h1>
-    <div style="display: flex; justify-content: center; align-items: center;">
-  <img src="./src/images/responsive.png" alt="imagem final do projeto" >
+<h1 align="center" >Projeto Advice Generetor app</h1>
+<div align="center">
+    <img src="./src/images/responsive.png" alt="imagem final do projeto" >
 </div>
 
 
