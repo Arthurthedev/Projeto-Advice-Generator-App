@@ -23,13 +23,13 @@ body{
     padding: 20px;
     padding-top: 30px;
     padding-bottom: 0px;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 5px;
     color: var(--cor-botao-card);
 }
 .card .card-p{
     width: 360px;
-    height: 136px;
+    height: 200px;
     padding: 20px;
     font-size: 23px;
     text-align: center;
